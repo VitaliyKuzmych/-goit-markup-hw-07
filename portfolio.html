@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
- <header class="page-header">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="page-header">
       <div class="container container--header">
         <nav class="container__nav container--header">
           <a href="/" lang="en" class="logo">
@@ -20,14 +29,14 @@
           >
           <ul class="site-nav list">
             <li class="site-nav__item">
-              <a
-                href="./index.html"
-                class="site-nav__link"
-                >Студия</a
-              >
+              <a href="./index.html" class="site-nav__link">Студия</a>
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link site-nav__link--current">Портфолио</a>
+              <a
+                href="./portfolio.html"
+                class="site-nav__link site-nav__link--current"
+                >Портфолио</a
+              >
             </li>
             <li class="site-nav__item">
               <a href="" class="site-nav__link">Контакты</a>
@@ -37,180 +46,309 @@
 
         <ul class="contacts list">
           <li class="contacts__item">
-            <a href="mailto:info@devstudio.com" class="contacts__link contacts__link--active">
+            <a
+              href="mailto:info@devstudio.com"
+              class="contacts__link contacts__link--active"
+            >
               <svg class="contacts__icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-imail"></use></svg>info@devstudio.com</a>
+                <use href="./images/icons.svg#icon-imail"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="contacts__item">
-            <a href="tel:+380961111111" class="contacts__link contacts__link--active">
+            <a
+              href="tel:+380961111111"
+              class="contacts__link contacts__link--active"
+            >
               <svg class="contacts__icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-phone"></use></svg>+380961111111</a>
+                <use href="./images/icons.svg#icon-phone"></use></svg
+              >+380961111111</a
+            >
           </li>
         </ul>
       </div>
     </header>
-<main>
-  <section class="section">
-    <div class="container">
-        <h1 class="visually-hidden">Наши работы</h1>
-        <ul class="filter">
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Наши работы</h1>
+          <ul class="filter">
             <li class="filter__item">
-                <button class="button button--secondary button--primary" type="button">Все</button> 
+              <button
+                class="button button--secondary button--primary"
+                type="button"
+              >
+                Все
+              </button>
             </li>
             <li class="filter__item">
-                <button class="button button--secondary button--primary" type="button">Веб-сайты</button>
+              <button
+                class="button button--secondary button--primary"
+                type="button"
+              >
+                Веб-сайты
+              </button>
             </li>
             <li class="filter__item">
-                <button class="button button--secondary button--primary" type="button">Приложения</button>
+              <button
+                class="button button--secondary button--primary"
+                type="button"
+              >
+                Приложения
+              </button>
             </li>
             <li class="filter__item">
-                <button class="button button--secondary button--primary" type="button">Дизайн</button>
+              <button
+                class="button button--secondary button--primary"
+                type="button"
+              >
+                Дизайн
+              </button>
             </li>
             <li class="filter__item">
-                <button class="button button--secondary button--primary" type="button">Маркетинг</button>
+              <button
+                class="button button--secondary button--primary"
+                type="button"
+              >
+                Маркетинг
+              </button>
             </li>
-        </ul>
+          </ul>
 
-        <ul class="services">
-          <li class="services__card">
-            <a href="" class="services__link">
-              <div class="services__thumb">
-                <img src="./images/tehnokryak.jpg" width="370" height="294" alt="технокряк"> 
-                <div class="services__overlay">
-                  <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                </div> 
-              </div> 
-              <div class="services__meta">
-                <h2 class="services__title">Технокряк</h2>
-                <p class="services__name" >Веб-сайт</p>
-              </div>
-            </a>
-          </li>
-          <li class="services__card">
+          <ul class="services">
+            <li class="services__card">
               <a href="" class="services__link">
                 <div class="services__thumb">
-                <img src="./images/golden-star.jpg" width="370" height="294" alt="постер"> 
-                <div class="services__overlay">
-                  <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                </div> 
-              </div> 
-              <div class="services__meta">
-                  <h2 class="services__title" lang="en">Постер New Orlean vs Golden Star</h2>
-                  <p class="services__name" >Дизайн</p>
-              </div>
-              </a>
-          </li>
-          <li class="services__card">
-              <a href="" class="services__link">
-                <div class="services__thumb">
-                  <img src="./images/seafood.jpg" width="370" height="294" alt="ресторан"> 
+                  <img
+                    src="./images/tehnokryak.jpg"
+                    width="370"
+                    height="294"
+                    alt="технокряк"
+                  />
                   <div class="services__overlay">
-                    <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                  </div> 
-                </div> 
-              <div class="services__meta">
-                  <h2 class="services__title" lang="en">Ресторан Seafood</h2>    
-                  <p class="services__name" >Приложение</p>  
-              </div>
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
+                  <h2 class="services__title">Технокряк</h2>
+                  <p class="services__name">Веб-сайт</p>
+                </div>
               </a>
-          </li>
-          <li class="services__card">
+            </li>
+            <li class="services__card">
               <a href="" class="services__link">
                 <div class="services__thumb">
-                  <img src="./images/proekt-prime.jpg" width="370" height="294" alt="проект"> 
+                  <img
+                    src="./images/golden-star.jpg"
+                    width="370"
+                    height="294"
+                    alt="постер"
+                  />
                   <div class="services__overlay">
-                    <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                  </div> 
-              </div> 
-              <div class="services__meta">
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
+                  <h2 class="services__title" lang="en">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="services__name">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="services__card">
+              <a href="" class="services__link">
+                <div class="services__thumb">
+                  <img
+                    src="./images/seafood.jpg"
+                    width="370"
+                    height="294"
+                    alt="ресторан"
+                  />
+                  <div class="services__overlay">
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
+                  <h2 class="services__title" lang="en">Ресторан Seafood</h2>
+                  <p class="services__name">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="services__card">
+              <a href="" class="services__link">
+                <div class="services__thumb">
+                  <img
+                    src="./images/proekt-prime.jpg"
+                    width="370"
+                    height="294"
+                    alt="проект"
+                  />
+                  <div class="services__overlay">
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
                   <h2 class="services__title" lang="en">Проект Prime</h2>
-                  <p class="services__name" >Маркетинг</p>
-              </div>
+                  <p class="services__name">Маркетинг</p>
+                </div>
               </a>
-          </li>
-          <li class="services__card">
+            </li>
+            <li class="services__card">
               <a href="" class="services__link">
                 <div class="services__thumb">
-                  <img src="./images/boxes.png" width="370" height="294" alt="коробка"> 
+                  <img
+                    src="./images/boxes.png"
+                    width="370"
+                    height="294"
+                    alt="коробка"
+                  />
                   <div class="services__overlay">
-                    <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                  </div> 
-              </div> 
-              <div class="services__meta">
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
                   <h2 class="services__title" lang="en">Проект Boxes</h2>
                   <p class="services__name">Приложение</p>
-              </div>
+                </div>
               </a>
-          </li>
-          <li class="services__card">
-                <a href="" class="services__link">
-                <div class="services__thumb">
-                  <img src="./images/inspiration.jpg" width="370" height="294" alt="бордер"> 
-                  <div class="services__overlay">
-                    <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                  </div> 
-              </div> 
-              <div class="services__meta">
-                  <h2 class="services__title" lang="en">Inspiration has no Borders</h2>
-                  <p class="services__name" >Веб-сайт</p>
-              </div>
-              </a>
-          </li>
-          <li class="services__card">
+            </li>
+            <li class="services__card">
               <a href="" class="services__link">
                 <div class="services__thumb">
-                  <img src="./images/limited-idition.jpg" width="370" height="294" alt="издание"> 
+                  <img
+                    src="./images/inspiration.jpg"
+                    width="370"
+                    height="294"
+                    alt="бордер"
+                  />
                   <div class="services__overlay">
-                    <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                  </div> 
-              </div> 
-              <div class="services__meta">
-                  <h2 class="services__title" lang="en">Издание Limited Edition</h2>
-                  <p class="services__name" >Дизайн</p>
-              </div>
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
+                  <h2 class="services__title" lang="en">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="services__name">Веб-сайт</p>
+                </div>
               </a>
-          </li>
-          <li class="services__card">
-                <a href="" class="services__link">
+            </li>
+            <li class="services__card">
+              <a href="" class="services__link">
                 <div class="services__thumb">
-                  <img src="./images/lab-poekt.jpg" width="370" height="294" alt="лаб"> 
+                  <img
+                    src="./images/limited-idition.jpg"
+                    width="370"
+                    height="294"
+                    alt="издание"
+                  />
                   <div class="services__overlay">
-                    <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                  </div> 
-              </div> 
-              <div class="services__meta">
-                  <h2 class="services__title" lang="en">Проект LAB</h2>
-                  <p class="services__name">Маркетинг</p>
-
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
+                  <h2 class="services__title" lang="en">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="services__name">Дизайн</p>
+                </div>
               </a>
-          </li>
-          <li class="services__card">
-                <a href="" class="services__link">
+            </li>
+            <li class="services__card">
+              <a href="" class="services__link">
                 <div class="services__thumb">
-                  <img src="./images/growing.jpg" width="370" height="294" alt="гровинг"> 
+                  <img
+                    src="./images/lab-poekt.jpg"
+                    width="370"
+                    height="294"
+                    alt="лаб"
+                  />
                   <div class="services__overlay">
-                    <p class="services__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                  </div> 
-              </div> 
-              <div class="services__meta">
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
                   <h2 class="services__title" lang="en">Growing Business</h2>
-                  <p class="services__name" >Приложение</p>
-              </div>
+                  <p class="services__name">Приложение</p>
+                </div>
               </a>
-          </li>
-        </ul>
-    </div>
+            </li>
+            <li class="services__card">
+              <a href="" class="services__link">
+                <div class="services__thumb">
+                  <img
+                    src="./images/growing.jpg"
+                    width="370"
+                    height="294"
+                    alt="гровинг"
+                  />
+                  <div class="services__overlay">
+                    <p class="services__text">
+                      Ресурс предлагает комплексные предложения с разным уровнем
+                      функционала и сервисов. Все это позволит посетителю
+                      получить исчерпывающие сведения о компании или частном
+                      лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="services__meta">
+                  <h2 class="services__title" lang="en">Growing Business</h2>
+                  <p class="services__name">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
-
-  </section>
-
-</main>
-
-<footer class="footer">
+    <footer class="footer">
       <div class="container container--position">
         <div>
           <a href="/" lang="en" class="logo">
-            <span class="logo__span">Web</span><span class="logo__color">Studio</span>
+            <span class="logo__span">Web</span
+            ><span class="logo__color">Studio</span>
           </a>
           <address>
             <ul class="footer__contact">
@@ -279,7 +417,7 @@
               name="email"
               placeholder="E-mail"
             />
-            <button class="button button--footer " type="submit">
+            <button class="button button--footer" type="submit">
               Подписаться<svg class="footer-form__icon">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
@@ -288,7 +426,5 @@
         </form>
       </div>
     </footer>
-    
-
-</body>
+  </body>
 </html>

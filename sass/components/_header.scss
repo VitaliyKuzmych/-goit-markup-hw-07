@@ -29,13 +29,13 @@ margin-right: 50px; }
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+&__link:hover,&__link:focus {
+    color:$accent-color;
+}
+
 &__item:last-child {
     margin-right: 0px;
 }
-
-&__link:hover, &__link:focus {
-    color:$accent-color;
-    }
 
 &__link--current {
     position: relative;
@@ -52,6 +52,7 @@ margin-right: 50px; }
     border-radius: 2px;
     background-color:$accent-color;
 }
+
 }
 
 

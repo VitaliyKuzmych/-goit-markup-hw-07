@@ -509,7 +509,7 @@ p {
 
 }
 
-.footer_link {
+.footer__link {
   text-decoration: none;
   color: var(--secondary-text-color);
   font-style: normal;
@@ -520,7 +520,7 @@ p {
 }
 
 
-.contact-list {
+.footer__contact-list {
   text-decoration: none;
   color: var(--contacts-color);
   font-style: normal;
@@ -534,8 +534,8 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-list:hover,
-.contact-list:focus {
+.footer__contact-list:hover,
+.footer__contact-list:focus {
   color: var(--accent-color);
 }
 
@@ -786,11 +786,6 @@ p {
   fill: var(--accent-color);
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-}
-
 .modal__title {
   position: absolute;
   margin: 40px 40px 0px 40px;
@@ -804,6 +799,8 @@ p {
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
   margin: 70px 40px 0px 40px;
   display: flex;
   flex-direction: column;

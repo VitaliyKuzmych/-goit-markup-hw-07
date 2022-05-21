@@ -31,4 +31,8 @@
         color:$secondary-text-color;
         background-color:$accent-color;
     }
+    &__link--footer {
+        color: $secondary-text-color;
+        background-color: $secondaty-bg-icon;
+    }
 }
